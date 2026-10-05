@@ -1,0 +1,16 @@
+/* Ensure sponsor logos fit cleanly inside the team avatar circle style */
+.sponsor-avatar-circle {
+  background-color: #F8FAFC;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+  border: 1px solid #E2E8F0;
+}
+
+.sponsor-avatar-circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 0;
+}
